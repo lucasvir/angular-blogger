@@ -1,10 +1,9 @@
 <div class="small__card--container">
-	<img src="/assets/photo.jpg" alt="" />
+	<img [src]="smallCardPhoto" alt="" />
 	<div class="small__card--content">
 		<a href="#">
-			<h1>Titulo</h1>
-			<p>conteudo</p>
+			<h1>{{ smallCardTitle }}</h1>
+			<p>{{ smallCardDesc }}</p>
 		</a>
 	</div>
-
 </div>
