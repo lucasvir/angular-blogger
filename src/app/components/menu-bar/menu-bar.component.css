@@ -1,0 +1,17 @@
+.menu-bar--container {
+	height: 100%;
+}
+
+.menu-bar--container > ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+
+	height: 100%;
+}
+
+.menu-bar--container > ul > li {
+	list-style: none;
+	font-size: 18px;
+}

@@ -1,0 +1,16 @@
+.menu__title--container {
+	color: white;
+}
+
+.menu__title--container > h1 {
+	text-align: center;
+	margin: 15px 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 135px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.menu__title--container > hr {
+	margin-bottom: 20px;
+}

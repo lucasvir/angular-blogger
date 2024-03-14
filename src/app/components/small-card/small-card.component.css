@@ -1,0 +1,23 @@
+.small__card--container {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	width: 500px;
+
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid white;
+}
+
+.small__card--container > img {
+	width: 200px;
+	min-width: 200px;
+}
+
+.small__card--content > a {
+	color: white;
+}
+
+.small__card--content >  a > h1 {
+	text-align: center;
+}
