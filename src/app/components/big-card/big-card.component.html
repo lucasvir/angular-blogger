@@ -1,7 +1,7 @@
 <div class="big-card--container">
 	<img class="big-card--img" [src]="photoCover" alt="" />
 	<div class="big-card--info">
-		<a href="" class="big-card--link">
+		<a [routerLink]="['content', cardId]" class="big-card--link">
 			<h1>{{ cardTitle }}</h1>
 			<p>
 				{{ cardDescription }}
